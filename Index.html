@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar responsive</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="#">Blogr </a>
+            </div>
+            <div class="navbar">
+                <input type="checkbox" id="sidebar-active">
+                <label for="sidebar-active" class="open-sidebar">
+                    <img src="./images/icon-hamburger.svg" alt="icon" class="menu-toggle">
+                </label>
+                <label for="sidebar-active" class="close-sidebar">
+                    <img src="./images/icon-close.svg" alt="icon">
+                </label>
+                <label id="overlay"for="sidebar-active"></label>
+                <div class="nav-icon">
+                    <div class="nav-left">               
+                        <a href="#" class="home-link">Product <img src="./images/icon-arrow-light.svg" alt="" class="arrow1"> <img src="./images/icon-arrow-dark.svg" alt=""  class="arrow" hidden></a>
+                        <a href="#" class="home-link">Company <img src="./images/icon-arrow-light.svg" alt="" class="arrow1"> <img src="./images/icon-arrow-dark.svg" alt="" class="arrow" hidden ></a>
+                        <div class="dropdown">
+                            <a href="#" class="home-link">Contact <img src="./images/icon-arrow-light.svg" alt="" class="arrow1"><img src="./images/icon-arrow-dark.svg" alt="" class="arrow" hidden></a>
+                            <div class="dropdown-content">
+                                <a href="#">Contact</a>
+                                <a href="#">Newsletter</a>
+                                <a href="#">linkedIn</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="nav-right">
+                        <a href="#" class="btn1">Login</a>
+                        <a href="#" class="btn2">Sign Up</a>
+                    </div> 
+                </div>                       
+            </div>
+        </nav>
+        <div class="content">
+            <h1>A modern publishing platform</h1>
+            <P>Grow your audience and build your online brand</P>
+            <div class="key">
+                <button type="button" class="key1">Start for Free</button>
+                <button type="button" class="key2">Learn More</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="news-headline ">
+            <h2>Designed for the Future</h2>
+        </div>
+        <div class=" about container">            
+            <div class="about-content">
+                <div class="content1">
+                    <h4>Introduction an extensible editor</h4>
+                    <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.
+                    </p>
+                </div>
+                <div class="content2">
+                    <h4>Robust content management</h4>
+                    <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control.</p>
+                </div>
+            </div>
+            <div2 class="about-img">
+                <div class="img-detail">
+                    <img class="showing" src="./images/illustration-editor-mobile.svg" alt="" hidden>
+                    <img src="./images/illustration-editor-desktop.svg" alt="" class="photo">
+                </div>
+            </div2>
+        </div>
+        <div class="class">
+            <div class="div">
+                <div class="class1">
+                    <img src="./images/illustration-phones.svg" alt="">
+                </div>
+                <div class="class2">
+                    <h2>State of Art Infrasturcture</h2>
+                    <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast
+                            connectivity. This ensures your site will load instantly, no matter where your readers are, keeping
+                            your site competitive
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container about2 ">
+            <div class="img-about2">
+                <div class="detail-img2">
+                    <img class="showing" src="./images/illustration-laptop-mobile.svg" alt="" hidden>
+                    <img src="./images/illustration-laptop-desktop.svg" alt="" class="photo2">
+                </div>
+            </div>
+            <div class="content-about ">
+                <div class="content3">
+                    <h4>Free, open, simple</h4>
+                    <p>Blogr is a free and open source application backed by a large community of helpful developers. It
+                            supports features such as code syntex highlighting, RSS feeds, social media integration,
+                            third-party commenting tools, and works seamlessly with Google Analytics. The architecture is
+                            clean and is relatively easy to learn.
+                    </p>
+                </div>
+                <div class="content4">
+                    <h4>Powerful tooling</h4>
+                    <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-class container">
+            <div class="foot"> 
+                <a href="#" class="logo2">Blogr</a>
+            </div>
+            <div class="panel">
+                <ul>
+                    <li><p>Product</p></li>
+                    <li><a>Overview</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Marketplace</a></li>
+                    <li><a>Features</a></li>
+                    <li><a>integration</a></li>
+                </ul>             
+                <ul>
+                    <li><p>Company</p></li>
+                    <li><a>About</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Team</a></li>
+                    <li><a>Careers</a></li>
+                </ul>     
+                <ul>
+                    <li><p>Contact</p></li>
+                    <li><a>Contact</a></li>
+                    <li><a>Newsletter</a></li>
+                    <li><a>LinkedIn</a></li>
+                </ul>              
+            </div>
+        </div>
+    </footer>
+</body> 
+</html>

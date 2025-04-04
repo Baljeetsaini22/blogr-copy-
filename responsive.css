@@ -1,0 +1,325 @@
+@media screen and (min-width:1200px) {
+    .nav-left {
+        gap: 20px;
+    }
+    .nav-list {
+        font-size: 1.2rem;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-right a {
+        text-decoration-line: none;
+        padding: 8px 16px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }    
+    .content h1 {
+        font-size: 3.5rem;
+        font-weight: 900;
+    }
+    .content p {
+        font-size: 1.8rem;
+    }
+
+
+    .key > button {
+        border: 2px solid white;
+        font-size: 1.5rem;
+        padding: 20px 30px;
+        margin: 40px 10px;
+        border-radius: 100px;
+    }
+
+    .class {
+        border: 2px solid black;
+        background-color: #22243dde;
+        border-bottom-left-radius: 100px;
+        border-top-right-radius: 100px; 
+        margin: 50px 0;
+        background-image: url(./images/bg-pattern-circles.svg);
+        background-repeat: no-repeat;
+        background-position: -215px -470px;
+    }
+    .class1 img {
+        width: 100%;
+        margin-top: -50px;
+        margin-bottom: -100px;
+    }
+    ul a {
+        display: block;
+        font-size: 1rem;
+        margin-top: 10px;
+        color: #dddddd;
+    }
+}
+@media (max-width:768px){
+    .nav-icon {
+        flex-direction: column;
+        position: absolute;
+        right: 10%;
+        height: 60vh;
+        top: -100%;
+        z-index: 10;
+        width: 80%;
+        background-color: #f1f1f1;
+        transition: 0.5s ease-out;
+        color: #1f1f1f;
+    }
+    .nav-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .nav-left a:hover {
+        color: #1f1f1f;
+    }
+    .home-link {
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: center;
+    }
+    
+    .arrow1 {
+        display: none;
+    }
+    .arrow {
+        display: block;
+    }
+    .btn2 {
+        background-color: hsl(355, 100%, 74%);
+        color: white;
+        border-radius: 50px;
+    }
+    
+    .btn2:active {
+        color:  hsl(355, 100%, 74%);
+        background-color: white;
+    }
+    .open-sidebar, .close-sidebar {
+        margin-left: auto;
+        padding: 20px;
+        display: block;
+    }
+    #sidebar-active:checked ~ .nav-icon {
+        top: 80px;
+    }
+    #sidebar-active:checked ~ #overlay {
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 9;
+    }
+    .close-sidebar {
+        display: none ;
+    }
+    #sidebar-active:checked ~ .open-sidebar {
+        display: none;
+    }
+    #sidebar-active:checked ~ .close-sidebar {
+        display: block;
+    }    
+
+    .home-link {
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: center;
+    }
+    .nav-right {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        color: #1f1f1f;
+    }
+    .dropdown {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .dropdown-content {
+        background-color: lightgray;
+        color: #333;
+        padding: 10px 60px;
+        margin: 60px 0;
+    }
+
+    .nav-icon a {
+        height: auto;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: center;
+        color: #1f1f1f;
+    }
+    .nav-right .btn1 {
+        color: #1f1f1f;
+    }
+    .content h1 {
+        font-size: 1.85rem;
+        font-weight: 700;
+    }
+    .content p {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width:580px) {
+    .dropdown-content {
+        background-color: lightgray;
+        color: #333;
+        padding: 10px 60px;
+        margin: 35px 0;
+    }
+    .nav-icon a {
+        padding: 10px 0;
+        
+    } 
+    .about {
+        margin-top: 40px;
+        flex-direction: column-reverse;
+        margin-bottom: 150px;
+    }
+    
+    .about-content {
+        width: 100%;
+        text-align: center;
+        font-size: 0.85rem;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .content h1 {
+        font-size: 1.7rem;
+    }
+    .content p {
+        font-size: 0.85rem;
+    }
+    .key > button {
+        border: 2px solid white;
+        font-size: 1rem;
+        padding: 5px 10px;
+        margin: 15px 5px;
+        border-radius: 100px;
+    }
+    .news-headline h2 {
+        font-size: 1.4rem;
+    }
+    .about-content h4 {
+        font-size: 1.5rem;
+    }
+       
+    .img-detail {
+        width: 100%;
+        overflow: auto;
+        margin-left: auto;
+    }
+    .img-detail img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+    }
+    .class {
+        background-size: contain;
+        background-position: 0 -120px;
+    }
+    .div {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .class1 {
+        width: 100%;
+    }
+    .class1 img {
+        margin-top: -100px;
+        margin-bottom: auto;
+    }
+    .class2 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .class2 h2 {
+        font-size: 1.2rem;
+    }
+    .class2 p {
+        font-size: 0.85rem;
+    }
+    .about2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-about2 {
+        width: 100%;
+    }
+    
+    .detail-img2 {
+        margin: auto;
+    }    
+
+    .detail-img2 img {
+        width: 100%;
+        height: auto;
+    }
+   
+    
+    .img-detail .photo {
+        display: none;
+    }
+    .detail-img2 .photo2 {
+        display: none;
+
+    }
+    .showing {
+        display: block;
+    }
+    .content-about {
+        width: 100%;
+        margin: 0;
+    }
+
+    .content-about {
+        font-size: 0.85rem;
+    }
+    .content3 h4 {
+        font-size: 1.5rem;
+    }
+
+    .content4 h4 {
+        font-size: 1.5rem;
+    }
+    .footer-class {
+        display: flex;
+        margin: 20px;
+        color: white;
+        flex-direction: column;
+    }
+    .logo2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .panel {
+        background-color: #222f3d;
+        color: white;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .panel ul {
+        margin: 20px 0;
+    }
+}
